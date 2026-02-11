@@ -1,3 +1,4 @@
+import Button from './Button'
 import './Home.css'
 import { Link } from 'react-router-dom'
 
@@ -15,7 +16,7 @@ function Home(){
                     </ul>
                 </div>
             </nav>
-
+            <Button text="Home"/>
             <div className="main-content">
                 <div className="container">
                     <h1>Welcome to my website</h1>
